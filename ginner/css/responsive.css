@@ -1,0 +1,24 @@
+/* -------- 響應式設計 -------- */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skill-item {
+    width: 40%;
+  }
+
+  .skill-item img {
+    width: 60px;
+  }
+
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}

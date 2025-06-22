@@ -1,0 +1,71 @@
+/* -------- 關於我區塊 -------- */
+#about {
+  background-color: #000000;
+  padding: 60px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.about-img img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+.about-info-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-card {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+}
+
+.about-card h3 {
+  font-size: 1.8rem;
+  color: #f7c300;
+  margin-top: 0;
+}
+
+.about-card p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}

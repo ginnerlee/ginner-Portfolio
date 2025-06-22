@@ -1,0 +1,51 @@
+/* -------- MY SKILL 區塊 -------- */
+#skills {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.skill-card {
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0 auto 40px auto;
+  padding: 40px 30px;
+  max-width: 800px;
+  transform: skewY(-2deg);
+}
+
+.skill-card h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  transform: skewY(2deg);
+  color: #000;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  transform: skewY(2deg);
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.skill-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+.skill-item span {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 500;
+}

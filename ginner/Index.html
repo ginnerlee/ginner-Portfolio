@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的作品集</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- 引入外部 CSS 檔案（依功能分類） -->
+  <link rel="stylesheet" href="css/reset.css">          <!-- 初始重置樣式 -->
+  <link rel="stylesheet" href="css/global.css">         <!-- 全站通用樣式（字體、按鈕、基本排版） -->
+  <link rel="stylesheet" href="css/navbar.css">         <!-- 導覽列樣式 -->
+  <link rel="stylesheet" href="css/hero.css">           <!-- Hero 區塊樣式 -->
+  <link rel="stylesheet" href="css/about.css">          <!-- 關於我區塊樣式 -->
+  <link rel="stylesheet" href="css/skills.css">         <!-- 技能區塊樣式 -->
+  <link rel="stylesheet" href="css/portfolio.css">      <!-- 作品集區塊樣式 -->
+  <link rel="stylesheet" href="css/award.css">          <!-- 得獎紀錄樣式 -->
+  <link rel="stylesheet" href="css/responsive.css">     <!-- 響應式設計樣式 -->
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">關於我</a></li>
+      <li><a href="#skills">技能</a></li>
+      <li><a href="#work">作品集</a></li>
+      <li><a href="#award">得獎記錄</a></li>
+    </ul>
+  </nav>
+
+  <!-- 頁首區塊 Hero -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I’m <span class="highlight">李君含</span></h1>
+        <p class="subtitle">Nice to meet you</p>
+        <div class="contact-icons">
+          <a href="mailto:yourmail@example.com" target="_blank" class="circle-icon">
+            <img src="images/Icons/mail.png" alt="Email">
+          </a>
+          <a href="https://www.youtube.com/channel/你的頻道ID" target="_blank" class="circle-icon">
+            <img src="images/Icons/youtube.png" alt="YouTube">
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/About me/profile.jpg" alt="我的照片">
+      </div>
+    </div>
+  </header>
+
+  <!-- 關於我區塊 -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-img">
+        <img src="images/About me/about me2.jpg" alt="我的照片">
+      </div>
+      <div class="about-text">
+        <p>你好，我是 <span class="highlight-text">李君含</span>，一位熱愛剪輯影片的遊戲創作者。</p>
+        <p>日常瑣事是腦袋瓜子的靈感來源</p>
+        <p>我有咖啡，你有故事嗎？</p>
+      </div>
+    </div>
+
+    <div class="about-info-container">
+      <!-- 教育背景 -->
+      <div class="about-card">
+        <h3><img src="images/Icons/Education.png" class="icon"> 教育背景 Education</h3>
+        <p>南臺科技大學<br>- 多媒體與電腦娛樂科學系</p>
+      </div>
+
+      <!-- 個人經歷 -->
+      <div class="about-card">
+        <h3><img src="images/Icons/Personal.png" class="icon"> 個人經歷 Experience</h3>
+        <p>
+          2019-2020 迦窯烘焙坊 - 研發人員、烘焙師<br>
+          2020-2024 刻影工作室 - 拍攝及剪輯人員<br>
+          2024-2025 程式概念教育影片計畫 - 拍攝及剪輯師<br>
+          2025 XR教育專案開發計畫 - 擔任企劃
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能區塊 -->
+  <section id="skills">
+    <h2>MY SKILL</h2>
+
+    <!-- 專業技能 -->
+    <div class="skill-card">
+      <h3>專業</h3>
+      <div class="skill-list">
+        <div class="skill-item"><img src="images/icons/Premiere.png" alt=""><span>Premiere</span></div>
+        <div class="skill-item"><img src="images/icons/Indesign.png" alt=""><span>Indesign</span></div>
+        <div class="skill-item"><img src="images/icons/AfterEffect.png" alt=""><span>AfterEffect</span></div>
+        <div class="skill-item"><img src="images/icons/Excel.png" alt=""><span>Excel</span></div>
+        <div class="skill-item"><img src="images/icons/unity.png" alt=""><span>Unity</span></div>
+      </div>
+    </div>
+
+    <!-- 執照證照 -->
+    <div class="skill-card">
+      <h3>執照</h3>
+      <div class="skill-list">
+        <div class="skill-item"><img src="images/icons/English.png" alt=""><span>英文</span></div>
+        <div class="skill-item"><img src="images/icons/illustrator.png" alt=""><span>illustrator</span></div>
+        <div class="skill-item"><img src="images/icons/unity.png" alt=""><span>Unity Artist</span></div>
+        <div class="skill-item"><img src="images/icons/drving license.png" alt=""><span>汽車駕照</span></div>
+      </div>
+    </div>
+  </section>
+
+<!-- 作品集 -->
+ <section class="work-section">
+  <h2 class="main-title">My Work</h2>
+
+  <!-- 遊戲設計區塊 -->
+  <h3 class="section-subtitle">遊戲設計｜Game Design</h3>
+
+  <div class="project-grid">
+
+    <!-- 遊畫博物館 -->
+    <div class="project-card">
+      <img src="images/Works/GameDesign/Art1.jpg" alt="遊畫博物館">
+      
+      <div class="project-overlay">
+        <h4>遊畫博物館</h4>
+        <p>標籤：桌遊、益智、策略、教育</p>
+        <p class="award">🎖 青春設計節 優選</p>
+        <div class="project-links">
+          <a href="link-to-carousel.html">查看更多</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 午月 Convallis -->
+    <div class="project-card">
+      <img src="images/Works/GameDesign/Convallis.jpg" alt="午月">
+      <div class="project-overlay">
+        <h4>午月 Convallis</h4>
+        <p>標籤：2D、解謎、第三人稱視角</p>
+        <p class="award">🏆 放視大賞 入圍</p>
+        <div class="project-links">
+          <a href="https://www.youtube.com/watch?v=xxx" target="_blank">觀看影片</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 其他作品... -->
+  </div>
+</section>
+
+  <!-- 攝影作品區塊 -->
+  <section class="work-section white-bg">
+    <h3 class="section-subtitle">攝影作品｜Photography</h3>
+    <div class="project-grid">
+      <!-- 放攝影作品圖卡 -->
+      <!-- <div class="photo-card"> ... </div> -->
+    </div>
+  </section>
+
+  <!-- 剪輯影片區塊 -->
+  <section class="work-section white-bg">
+    <h3 class="section-subtitle">剪輯影片｜Video Editing</h3>
+    <div class="project-grid">
+      <!-- 放剪輯作品 YouTube 或影片預覽卡 -->
+      <!-- <div class="video-card"> ... </div> -->
+    </div>
+  </section>
+</section>
+  </section>
+
+  <!-- 得獎紀錄 -->
+  <section id="award">
+    <h2 class="section-title">Awards</h2>
+    <div class="award-card">
+      <ul>
+        <li>2023 全國數位內容競賽｜最佳影片剪輯獎</li>
+        <li>2022 校內遊戲設計競賽｜團隊佳作</li>
+        <li>2021 攝影展徵件｜入選作品</li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
