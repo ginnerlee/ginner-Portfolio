@@ -1,0 +1,40 @@
+#contact {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.contact-link:hover {
+  transform: scale(1.1);
+}
+
+.contact-link img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* 手機排版優化 */
+@media (max-width: 600px) {
+  .contact-icons {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
